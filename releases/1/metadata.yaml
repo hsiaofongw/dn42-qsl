@@ -1,0 +1,17 @@
+name: "DN42 QSL Card for AS4242423999"
+description: "This is a DN42 QSL card for AS4242423999 (COWGL-MNT) authored by AS4242421771 (DUSTSTARS-MNT). The purpose is for recording the establishment of BGP session as well as the layer 3 inter-network connectivity at this moment."
+image: "card.svg.base64"
+external_url: "https://hackmd.io/@cow/dn42-peering-list"
+attributes:
+  - trait_type: "ASN"
+    value: "AS4242423999"
+  - trait_type: "MNT"
+    value: "COWGL-MNT"
+  - trait_type: "PREFIX"
+    value: "fd36:62be:ef51::/48"
+  - trait_type: "PREFIXv4"
+    value: "172.22.144.64/27"
+  - trait_type: "SOURCE"
+    value: "DN42"
+# https://docs.opensea.io/docs/metadata-standards
+
