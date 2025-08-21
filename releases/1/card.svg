@@ -9,7 +9,7 @@
 <text x="20" y="159" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">DATE: 2025-08-21 UTC 13:54</text>
 <text x="20" y="183" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">MODE: BGP over WireGuard</text>
 <text x="20" y="207" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">RTT: 120.168ms</text>
-<line x1="20" y1="220" x2="330" y2="215" stroke="#2c3e50" stroke-width="1" />
+<line x1="20" y1="220" x2="330" y2="220" stroke="#2c3e50" stroke-width="1" />
 <text x="20" y="236" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Happy peering!</text>
 <polygon points="264,155 257,167.12 243,167.12 236,155 243,142.88 257,142.88" fill="#2c3e50ff" stroke="none" />
 <polygon points="286.73,141.88 279.73,154 265.73,154 258.73,141.88 265.73,129.75 279.73,129.75" fill="#2c3e50cf" stroke="none" />
