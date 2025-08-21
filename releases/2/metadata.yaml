@@ -1,0 +1,15 @@
+name: "DN42 QSL Card for 4242422189"
+description: "DN42 QSL card for AS4242422189 (IEDON-MNT) authored by AS4242421771 (DUSTSTARS-MNT). For recording BGP session establishment as well as the layer 3 connectivity."
+image: "card.svg.base64"
+external_url: "https://iedon.net/"
+attributes:
+  - trait_type: "ASN"
+    value: "4242422189"
+  - trait_type: "MNT"
+    value: "IEDON-MNT"
+  - trait_type: "PREFIX"
+    value: "fd42:4242:2189::/48"
+  - trait_type: "SOURCE"
+    value: "DN42"
+# https://docs.opensea.io/docs/metadata-standards
+
