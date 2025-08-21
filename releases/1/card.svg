@@ -1,36 +1,21 @@
 <svg width="350" height="250" xmlns="http://www.w3.org/2000/svg" style="border-radius: 14px;" >
-  <!-- Background -->
-  <rect width="100%" height="100%" fill="#f0f8ff" />
-  
-  <!-- Title area -->
-  <rect x="0" y="0" width="350" height="40" fill="#2c3e50" />
-  <text x="175" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">QSL CARD DN42 AS4242421771 </text>
-  
-  <!-- Main area -->
-  <text x="20" y="63" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">MNT: <tspan font-weight="bold">COWGL-MNT</tspan></text>
-  <text x="20" y="87" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">ASN: AS4242423999</text>
-  <text x="20" y="111" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">ADDR: fd36:62be:ef51::1</text>
-  <text x="20" y="135" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">FROM: fdda:8ca4:1556:1fff::2</text>
-  <text x="20" y="159" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">DATE: 2025-08-21 UTC 13:54</text>
-  <text x="20" y="183" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">MODE: BGP over WireGuard</text>
-  <text x="20" y="207" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">RTT: 120.168ms</text>
-  
-  <!-- Divider line -->
-  <line x1="20" y1="220" x2="330" y2="215" stroke="#2c3e50" stroke-width="1" />
-  
-  <!-- Comments area-->
-  <text x="20" y="236" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Happy peering!</text>
-  
-  <!-- Decorators - Hexagons -->
-  <polygon points="264,155 257,167.12435565298213 243,167.12435565298213 236,155 243,142.87564434701787 257,142.87564434701787" fill="#2c3e50ff" stroke="none" />
-<polygon points="286.7320508075689,141.87564434701784 279.7320508075689,153.99999999999997 265.7320508075689,153.99999999999997 258.7320508075689,141.87564434701784 265.7320508075689,129.7512886940357 279.7320508075689,129.7512886940357" fill="#2c3e50cf" stroke="none" />
-<polygon points="286.7320508075689,168.12435565298213 279.7320508075689,180.24871130596426 265.7320508075689,180.24871130596426 258.7320508075689,168.12435565298213 265.7320508075689,156 279.7320508075689,156" fill="#2c3e50cf" stroke="none" />
-<polygon points="309.4641016151378,128.75128869403568 302.4641016151378,140.8756443470178 288.4641016151378,140.8756443470178 281.4641016151378,128.75128869403568 288.4641016151378,116.62693304105355 302.4641016151378,116.62693304105353" fill="#2c3e509f" stroke="none" />
-<polygon points="309.4641016151378,154.99999999999997 302.4641016151378,167.1243556529821 288.4641016151378,167.1243556529821 281.4641016151378,154.99999999999997 288.4641016151378,142.87564434701784 302.4641016151378,142.87564434701784" fill="#2c3e509f" stroke="none" />
-<polygon points="332.1961524227067,168.1243556529821 325.1961524227067,180.24871130596424 311.1961524227067,180.24871130596424 304.1961524227067,168.1243556529821 311.1961524227067,155.99999999999997 325.1961524227067,155.99999999999997" fill="#2c3e506f" stroke="none" />
-
-
-  
-  <!-- Bottom info -->
-  <text x="247" y="235" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="start">Token ID: #000001</text>
+<rect width="100%" height="100%" fill="#f0f8ff" />
+<rect x="0" y="0" width="350" height="40" fill="#2c3e50" />
+<text x="175" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">QSL CARD DN42 AS4242421771 </text>
+<text x="20" y="63" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">MNT: <tspan font-weight="bold">COWGL-MNT</tspan></text>
+<text x="20" y="87" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">ASN: AS4242423999</text>
+<text x="20" y="111" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">ADDR: fd36:62be:ef51::1</text>
+<text x="20" y="135" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">FROM: fdda:8ca4:1556:1fff::2</text>
+<text x="20" y="159" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">DATE: 2025-08-21 UTC 13:54</text>
+<text x="20" y="183" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">MODE: BGP over WireGuard</text>
+<text x="20" y="207" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">RTT: 120.168ms</text>
+<line x1="20" y1="220" x2="330" y2="215" stroke="#2c3e50" stroke-width="1" />
+<text x="20" y="236" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Happy peering!</text>
+<polygon points="264,155 257,167.12 243,167.12 236,155 243,142.88 257,142.88" fill="#2c3e50ff" stroke="none" />
+<polygon points="286.73,141.88 279.73,154 265.73,154 258.73,141.88 265.73,129.75 279.73,129.75" fill="#2c3e50cf" stroke="none" />
+<polygon points="286.73,168.12 279.73,180.25 265.73,180.25 258.73,168.12 265.73,156 279.73,156" fill="#2c3e50cf" stroke="none" />
+<polygon points="309.46,128.75 302.46,140.88 288.46,140.88 281.46,128.75 288.46,116.63 302.46,116.63" fill="#2c3e509f" stroke="none" />
+<polygon points="309.46,155 302.46,167.12 288.46,167.12 281.46,155 288.46,142.88 302.46,142.88" fill="#2c3e509f" stroke="none" />
+<polygon points="332.2,168.12 325.2,180.25 311.2,180.25 304.2,168.12 311.2,156 325.2,156" fill="#2c3e506f" stroke="none" />
+<text x="247" y="235" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" text-anchor="start">Token ID: #000001</text>
 </svg>

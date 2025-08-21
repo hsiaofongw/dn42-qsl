@@ -23,8 +23,12 @@ function scaleVec(p, s) {
     return [p[0]*s, p[1]*s]
 }
 
+function renderAxisVal(x) {
+    return Number(x).toFixed(2).replace(/0+$/,'').replace(/\.$/,'')
+}
+
 function renderPoint(point) {
-    return `${point[0]},${point[1]}`
+    return `${renderAxisVal(point[0])},${renderAxisVal(point[1])}`
 }
 
 function renderPoints(points) {
