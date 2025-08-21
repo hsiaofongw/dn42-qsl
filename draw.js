@@ -24,7 +24,7 @@ function scaleVec(p, s) {
 }
 
 function renderAxisVal(x) {
-    return Number(x).toFixed(2).replace(/0+$/,'').replace(/\.$/,'')
+    return Number(x).toFixed(1).replace(/0+$/,'').replace(/\.$/,'')
 }
 
 function renderPoint(point) {
