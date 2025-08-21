@@ -36,11 +36,10 @@ function renderSVG(polygon, fill, stroke){
 }
 
 function main() {
-    const radius = 18
+    const radius = 16
     const cos = radius * Math.cos(Math.PI/6)
-    const sin = radius * Math.sin(Math.PI/6)
     const gap = 2
-    const center0 = [250,150]
+    const center0 = [240,150]
     const col1 = [
         center0,
     ]
