@@ -35,6 +35,12 @@ function renderSVG(polygon, fill, stroke){
     return `<polygon points="${renderPoints(polygon)}" fill="${fill}" stroke="${stroke}" />`
 }
 
+const deepGray = '#2c3e50'
+
+function makeOpacityColor(colorHex, opacityHex) {
+    return `${colorHex}${opacityHex}`
+}
+
 function main() {
     const radius = 14
     const cos = radius * Math.cos(Math.PI/6)
@@ -51,19 +57,19 @@ function main() {
     const col4 = col3.map(pt => addVec(pt, makeDirectionVector(30, 2*cos+gap))).slice(1)
 
     for (const pt of col1) {
-        console.log(renderSVG(makePolygonPoints(radius, pt), '#3498dbff', 'none'))
+        console.log(renderSVG(makePolygonPoints(radius, pt), makeOpacityColor(deepGray, 'ff'), 'none'))
     }
 
     for (const pt of col2) {
-        console.log(renderSVG(makePolygonPoints(radius, pt), '#3498dbcf', 'none'))
+        console.log(renderSVG(makePolygonPoints(radius, pt), makeOpacityColor(deepGray, 'cf'), 'none'))
     }
 
     for (const pt of col3) {
-        console.log(renderSVG(makePolygonPoints(radius, pt), '#3498db9f', 'none'))
+        console.log(renderSVG(makePolygonPoints(radius, pt), makeOpacityColor(deepGray, '9f'), 'none'))
     }
 
     for (const pt of col4) {
-        console.log(renderSVG(makePolygonPoints(radius, pt), '#3498db6f', 'none'))
+        console.log(renderSVG(makePolygonPoints(radius, pt), makeOpacityColor(deepGray, '6f'), 'none'))
     }
 
     
