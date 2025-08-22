@@ -1,0 +1,14 @@
+name: "DN42 QSL Card for 4242420253"
+description: "DN42 QSL card for 4242420253 (MOE233-MNT). My first DN42 BGP neighbor."
+image: "card.svg.base64"
+external_url: "https://blog.moe233.net/dn42/"
+attributes:
+  - trait_type: "ASN"
+    value: "AS4242420253"
+  - trait_type: "MNT"
+    value: "MOE233-MNT"
+  - trait_type: "PREFIX"
+    value: "fd05:4b:cce::/48"
+  - trait_type: "SOURCE"
+    value: "DN42"
+# https://docs.opensea.io/docs/metadata-standards
